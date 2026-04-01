@@ -8,7 +8,6 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
-  // إزالة تعريف النوع (path: string)
   const isActive = (path) => location.pathname === path;
 
   const navLinks = [
